@@ -5,7 +5,8 @@ In that fragile moment, beauty and sorrow melt into one eternal glow.
 
 # Screenshots
 
-<img width="2560" height="1440" alt="screenshot-2025-11-01_12-02-36" src="https://github.com/user-attachments/assets/f7a236f5-13cd-4e96-8acd-f9f847a4e24a" />
+<img width="2560" height="1440" alt="screenshot-2025-11-01_15-51-30" src="https://github.com/user-attachments/assets/6100b88d-43de-4724-9e1f-9ece2a60afab" />
+
 <img width="2560" height="1440" alt="screenshot-2025-11-01_12-06-08" src="https://github.com/user-attachments/assets/ee3d5727-7d3e-473e-8516-3fa0de40d483" />
 
 
