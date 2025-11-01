@@ -26,4 +26,8 @@
     --color13: #e9dad8;
     --color14: #fde9da;
     --color15: #d7857f;
+
+    --base00: color-mix(in srgb, var(--color00) 65%, black) !important;
+    --base04: color-mix(in srgb, var(--color00) 5%, white) !important;
+
 }
