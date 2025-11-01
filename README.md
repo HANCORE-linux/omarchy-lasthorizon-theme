@@ -8,6 +8,7 @@ In that fragile moment, beauty and sorrow melt into one eternal glow.
 <img width="2560" height="1440" alt="screenshot-2025-11-01_15-51-30" src="https://github.com/user-attachments/assets/6100b88d-43de-4724-9e1f-9ece2a60afab" />
 
 <img width="2560" height="1440" alt="screenshot-2025-11-01_12-06-08" src="https://github.com/user-attachments/assets/ee3d5727-7d3e-473e-8516-3fa0de40d483" />
+<img width="1410" height="692" alt="screenshot-2025-11-01_17-34-54" src="https://github.com/user-attachments/assets/b9189662-6374-4cc8-b3fc-8a099417ddee" />
 
 
 # Backgrounds
