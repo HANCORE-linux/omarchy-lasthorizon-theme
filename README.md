@@ -10,7 +10,10 @@ In that fragile moment, beauty and sorrow melt into one eternal glow.
 <img width="2560" height="1440" alt="screenshot-2025-11-01_12-06-08" src="https://github.com/user-attachments/assets/ee3d5727-7d3e-473e-8516-3fa0de40d483" />
 
 
+# Backgrounds
+![6566256-anime-serial-experiments-lain-4k-ultra-hd-wallpaper-by-](https://github.com/user-attachments/assets/b9348e3c-0f52-4f6c-bceb-84f94fd5b3c3)
 
+![processed-wallpaper-1762016249223](https://github.com/user-attachments/assets/2cb180ea-3283-41c8-9a59-f6b47344ad3a)
 
 
 
