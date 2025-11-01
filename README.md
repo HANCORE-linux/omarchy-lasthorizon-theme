@@ -28,11 +28,8 @@ omarchy-theme-install https://github.com/HANCORE-linux/omarchy-lasthorizon-theme
 ## Vesktop-Theme
 For Vesktop users, you can install this theme by copying (usally from ~/Downloads) the theme file to your Vesktop themes directory:
 ```bash
-cp system24-thegreek.css ~/.config/vesktop/themes/system24-thegreek.css
+cp vencord.theme.lasthorizon.css ~/.config/vesktop/themes/vencord.theme.lasthorizon.css
 ```
-## Superfile Support
-- created a Theme for superfile
-- copy thegreek.toml to ~/.config/superfile/theme/ and edit in your config.toml  the line to ``` theme = 'thegreek' ```
 
 ## Waybar-Theme
 For my Waybar-Theme (V3 config & shadow_style_css) simply check my Link https://github.com/HANCORE-linux/Waybar-Theme-red-accents-.git
