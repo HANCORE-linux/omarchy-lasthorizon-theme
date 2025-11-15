@@ -23,3 +23,9 @@ window .search {
   font-size: 14px;
   font-weight: 500;
 }
+
+window .box-wrapper {
+    border-radius: 6px;
+    box-shadow: 0 2px 8px alpha(@selected-text, 0.2);
+    backdrop-filter: blur(10px);
+}
