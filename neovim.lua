@@ -1,44 +1,56 @@
 return {
-	{
-		"bjarneo/aether.nvim",
-		name = "lasthorizon",
-		priority = 1000,
-		opts = {
-			disable_italics = false,
-			colors = {
-				-- Monotone shades (base00-base07)
-				base00 = "#1F211B", -- Deep dusk background
-				base01 = "#3A3C35", -- Softer secondary background
-				base02 = "#2B2E27", -- Selection background
-				base03 = "#7A7C72", -- Comments, subtle elements
-				base04 = "#EBD9C6", -- Muted light foreground
-				base05 = "#FFFFFF", -- Primary text
-				base06 = "#FDF8F3", -- Bright text
-				base07 = "#F5E8D8", -- Light background accents
+    {
+        "bjarneo/aether.nvim",
+        branch = "v2",
+        name = "aether",
+        priority = 1000,
+        opts = {
+            transparent = false,
+            colors = {
+                -- Background colors
+                bg = "#0c0b0c",
+                bg_dark = "#0c0b0c",
+                bg_highlight = "#817c81",
 
-				-- Accent colors (base08-base0F)
-				base08 = "#D8746B", -- Gentle red
-				base09 = "#EBAA93", -- Warm coral
-				base0A = "#F5C89C", -- Soft amber
-				base0B = "#F7D8B2", -- Calm sand
-				base0C = "#F3BE8D", -- Muted peach
-				base0D = "#D89B90", -- Faded rose
-				base0E = "#C8AFA8", -- Mild mauve
-				base0F = "#F4E6DC", -- Cream tone
-			},
-		},
-		config = function(_, opts)
-			require("aether").setup(opts)
-			vim.cmd.colorscheme("aether")
+                -- Foreground colors
+                -- fg: Object properties, builtin types, builtin variables, member access, default text
+                fg = "#ffffff",
+                -- fg_dark: Inactive elements, statusline, secondary text
+                fg_dark = "#e1dede",
+                -- comment: Line highlight, gutter elements, disabled states
+                comment = "#817c81",
 
-			-- Enable hot reload
-			require("aether.hotreload").setup()
-		end,
-	},
-	{
-		"LazyVim/LazyVim",
-		opts = {
-			colorscheme = "aether",
-		},
-	},
+                -- Accent colors
+                -- red: Errors, diagnostics, tags, deletions, breakpoints
+                red = "#a96756",
+                -- orange: Constants, numbers, current line number, git modifications
+                orange = "#e5cfc9",
+                -- yellow: Types, classes, constructors, warnings, numbers, booleans
+                yellow = "#b99d8e",
+                -- green: Comments, strings, success states, git additions
+                green = "#87a9b0",
+                -- cyan: Parameters, regex, preprocessor, hints, properties
+                cyan = "#adc2c8",
+                -- blue: Functions, keywords, directories, links, info diagnostics
+                blue = "#a5a0b6",
+                -- purple: Storage keywords, special keywords, identifiers, namespaces
+                purple = "#c38b7b",
+                -- magenta: Function declarations, exception handling, tags
+                magenta = "#e2c1b8",
+            },
+        },
+        config = function(_, opts)
+            require("aether").setup(opts)
+            vim.cmd.colorscheme("aether")
+
+            -- Enable hot reload
+            require("aether.hotreload").setup()
+        end,
+    },
+    {
+        "LazyVim/LazyVim",
+        opts = {
+            colorscheme = "aether",
+        },
+    },
 }

@@ -1,31 +1,73 @@
-@define-color selected-text #edc4a0;
-@define-color text #9c4f3f;
-@define-color base #1F211B;
-@define-color border #9c4f3f;
-@define-color foreground #9c4f3f;
-@define-color background #1F211B;
+@define-color selected-text #b59790;
+@define-color text #e2dddc;
+@define-color base #0c0b0c;
+@define-color border #e2dddc;
+@define-color foreground #e2dddc;
+@define-color background #0c0b0c;
 
+window * {
+    all: unset;
+    
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+}
 
-
-@define-color hover #edc4a0;
-
-
-window .search-container,
-window .search {
-  background: alpha(@hover, 0.7);
-  color: @foreground;
-  border: 1px solid alpha(@border, 0.5);
-  border-radius: 12px;
-  box-shadow: inset 0 0 6px alpha(#9c4f3f, 1);
-  text-shadow: 0 0 1px grey;
-  padding: 8px 12px;
-  margin: 4px 0;
-  font-size: 14px;
-  font-weight: 500;
+window .normal-icons,
+window .large-icons,
+window .item-image,
+window .symbols {
+    -gtk-icon-size: 18px;
+    min-width: 0;
+    min-height: 0;
+    padding: 0;
+    margin: 0;
+    display: none;
 }
 
 window .box-wrapper {
-    border-radius: 6px;
-    box-shadow: 0 2px 8px alpha(@selected-text, 0.2);
-    backdrop-filter: blur(10px);
+    background: alpha(@base, 1);           /* dark transparency */
+    border: 2px solid alpha(@text, 0.8);    /* visible border */
+    border-radius: 5px;
+    padding: 4px;
+    margin: 0;
+    box-shadow: 0 2px 12px alpha(black, 0.8);
+    backdrop-filter: blur(1px);
+    line-height: 10%;
+}
+
+window .search-container {
+    border: 2px solid alpha(@text, 0.3);    /* visible border */
+    border-radius: 3px;
+    padding: 4px 6px;
+    margin: 0x;
+    background: alpha(#b59790, 1);            /* slightly transparent */
+    box-shadow: inset 0 0 6px alpha(white, 0.1);
+    backdrop-filter: blur(1px);
+    line-height: 1em;
+    
+}
+
+window .search-container text { 
+    color: #33241f;
+    caret-color: #33241f;
+}
+
+window .input {
+    background: transparent;
+    color: @text;
+}
+
+window .preview {
+    border: 0px solid alpha(@text, 0.3);
+    border-radius: 3px;
+    background: alpha(@base, 0.5);
+    color: @text;
+    padding: 10px 10px 10px;
+    margin: 10px 0px 10px;
+    box-shadow: inset 0 0 8px alpha(white, 0);
+    backdrop-filter: blur(8px);
+    line-height: 1em;
 }
